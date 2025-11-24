@@ -1,50 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pradeep | Developer Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
 <body>
 
-    <!-- HERO SECTION -->
-    <header class="hero">
-        <div class="overlay"></div>
-        <div class="hero-content">
-            <h1 class="fade-in">Hi, I'm <span>Pradeep</span></h1>
-            <p class="fade-in delay-1">AI-Assisted Developer & Tech Explorer</p>
-            <a href="#projects" class="btn fade-in delay-2">Explore My Work</a>
+<nav>
+    <h2>Pradeep</h2>
+    <div>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<section class="hero">
+    <h1>Hi, I'm Pradeep</h1>
+    <p>AI-Assisted Developer | Linux & Git Learner | Tech Explorer</p>
+    <a class="btn" href="#projects">View My Work</a>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+        I am learning Linux, Git, GitHub, AI tools, and modern workflows. 
+        My goal is to grow into a productive engineer and build real-world projects.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects-grid">
+
+        <div class="card">
+            <h3>Portfolio Website</h3>
+            <p>A fully responsive portfolio made using HTML, CSS, JS.</p>
         </div>
-    </header>
 
-    <!-- ABOUT -->
-    <section class="about fade-in">
-        <h2>About Me</h2>
-        <p>
-            I'm a passionate learner exploring Linux, Git, GitHub, and AI tools.
-            My goal is to grow into a productive developer capable of working with modern workflows.
-        </p>
-    </section>
-
-    <!-- PROJECTS -->
-    <section class="projects" id="projects">
-        <h2 class="fade-in">Projects</h2>
-
-        <div class="project-grid">
-            <div class="project-card glass fade-in delay-1">Portfolio Website</div>
-            <div class="project-card glass fade-in delay-2">Linux Practice Scripts</div>
-            <div class="project-card glass fade-in delay-3">Git & GitHub Workflows</div>
+        <div class="card">
+            <h3>Linux Scripts</h3>
+            <p>Bash scripts for automation and learning the Linux environment.</p>
         </div>
-    </section>
 
-    <!-- CONTACT -->
-    <section class="contact fade-in">
-        <h2>Contact</h2>
-        <p>Email: <strong>devulapallipradeep99@gmail.com</strong></p>
-        <p>GitHub: <a href="https://github.com/pradeep292001" target="_blank">github.com/pradeep292001</a></p>
-    </section>
+        <div class="card">
+            <h3>GitHub Workflow</h3>
+            <p>Version control practice using Git & GitHub.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: devulapallipradeep99@gmail.com</p>
+    <p>GitHub: github.com/Pradeep292001</p>
+</section>
 
 <script src="script.js"></script>
 </body>
-</html>
