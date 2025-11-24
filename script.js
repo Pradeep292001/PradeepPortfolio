@@ -1,3 +1,9 @@
-// Smooth Scroll Effect
-console.log("Portfolio Loaded Successfully!");
 
+// Smooth scrolling for links
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener("click", function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute("href"))
+            .scrollIntoView({ behavior: "smooth" });
+    });
+});
